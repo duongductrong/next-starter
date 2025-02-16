@@ -1,4 +1,4 @@
-import SignInScreen from "@/features/auth/screens/sign-in"
+import SignInScreen from "@/features/auth/ui/sign-in"
 
 export interface SignInPageProps {}
 

@@ -4,7 +4,7 @@ import * as LabelPrimitive from "@radix-ui/react-label"
 import * as React from "react"
 import { tv, type VariantProps } from "tailwind-variants"
 
-import { cn } from "@/utils/tw"
+import { cn } from "@/lib/tw"
 
 export const labelVariants = tv({
   base: "text-sm font-medium leading-4 peer-disabled:cursor-not-allowed peer-disabled:opacity-70",

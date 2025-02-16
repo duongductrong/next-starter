@@ -1,7 +1,7 @@
 "use client"
 
 import { webConfig } from "@/config/web"
-import { cn } from "@/utils/tw"
+import { cn } from "@/lib/tw"
 import { GalleryVerticalEnd } from "lucide-react"
 import { useAction } from "next-safe-action/hooks"
 import { ComponentProps } from "react"

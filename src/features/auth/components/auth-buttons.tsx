@@ -1,7 +1,7 @@
 "use client"
 
 import { Button, ButtonProps } from "@/components/ui/button"
-import { composeEventHandler } from "@/utils/event"
+import { composeEventHandler } from "@/lib/event"
 import { Slot, SlotProps } from "@radix-ui/react-slot"
 import { BuiltInProviderType } from "next-auth/providers"
 import { signInWithOAuth, signOutWithAccount } from "../actions/sign-in"

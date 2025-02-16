@@ -1,4 +1,4 @@
-import SignUpScreen from "@/features/auth/screens/sign-up"
+import SignUpScreen from "@/features/auth/ui/sign-up"
 
 export interface SignUpPageProps {}
 

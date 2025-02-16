@@ -1,7 +1,7 @@
 "use client"
 
 import { redirect } from "@/i18n/routing"
-import { getRedirectAuthPath } from "@/utils/auth"
+import { getRedirectAuthPath } from "@/lib/auth"
 import { useSession } from "next-auth/react"
 import { useLocale } from "next-intl"
 import { ReactNode } from "react"

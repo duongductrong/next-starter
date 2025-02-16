@@ -1,6 +1,6 @@
 import { Slot } from "@radix-ui/react-slot"
 
-import { cn } from "@/utils/tw"
+import { cn } from "@/lib/tw"
 import { forwardRef } from "react"
 import { tv, VariantProps } from "tailwind-variants"
 

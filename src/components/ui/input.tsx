@@ -1,4 +1,4 @@
-import { cn } from "@/utils/tw"
+import { cn } from "@/lib/tw"
 import { ComponentProps } from "react"
 
 export interface InputProps extends ComponentProps<"input"> {}

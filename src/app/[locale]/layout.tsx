@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { ThemeProvider } from "@/components/ui/theme-provider"
 import { routing } from "@/i18n/routing"
-import { cn } from "@/utils/tw"
+import { cn } from "@/lib/tw"
 import type { Metadata } from "next"
 import { NextIntlClientProvider } from "next-intl"
 import { getMessages } from "next-intl/server"

@@ -3,7 +3,7 @@
 import { getUserByEmail } from "@/db/user/queries/get-user-by-email"
 import { redirect } from "@/i18n/routing"
 import { safeAction } from "@/lib/safe-action"
-import { getRedirectAuthPath } from "@/utils/auth"
+import { getRedirectAuthPath } from "@/lib/auth"
 import { signIn, signOut } from "auth"
 import { returnValidationErrors } from "next-safe-action"
 import { z } from "zod"
