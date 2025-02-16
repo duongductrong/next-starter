@@ -10,8 +10,8 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 import { Label } from "@/components/ui/label"
-import Field from "@/components/uses/form"
-import { Loading } from "@/components/uses/loading"
+import Field from "@/components/widgets/form"
+import { Loading } from "@/components/widgets/loading"
 import { getErrorMessage } from "@/config/messages"
 import { Link } from "@/i18n/routing"
 import { cn } from "@/utils/tw"

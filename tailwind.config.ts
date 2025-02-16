@@ -11,7 +11,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["var(--font-geist)", "var(--font-inter)", ...fontFamily.sans],
+        sans: ["var(--font-inter)", "var(--font-geist)", ...fontFamily.sans],
       },
       colors: {
         background: "hsl(var(--background))",
