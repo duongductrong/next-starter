@@ -19,7 +19,7 @@
       }
     ],
     "paths": {
-      "auth": ["./auth"],
+      "auth": ["./src/lib/auth"],
       "@/*": ["./src/*"]
     }
   },
