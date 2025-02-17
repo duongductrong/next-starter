@@ -11,6 +11,7 @@ import { notFound } from "next/navigation"
 import SessionProvider from "@/features/auth/components/session"
 import { auth } from "auth"
 import "../globals.css"
+import { TanstackQueryClientProvider } from "@/lib/tanstack-query"
 
 const inter = Inter({
   variable: "--font-inter",
@@ -53,7 +54,9 @@ export default async function RootLayout({ children, params }: LayoutProps) {
       >
         <NextIntlClientProvider messages={messages} locale={locale}>
           <ThemeProvider attribute="class" forcedTheme="light">
-            <SessionProvider session={session}>{children}</SessionProvider>
+            <TanstackQueryClientProvider>
+              <SessionProvider session={session}>{children}</SessionProvider>
+            </TanstackQueryClientProvider>
           </ThemeProvider>
         </NextIntlClientProvider>
       </body>
